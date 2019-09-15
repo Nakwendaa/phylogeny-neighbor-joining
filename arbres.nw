@@ -1,0 +1,6 @@
+((PCDHA1_Humain, OR2J3_Humain), ((PCDHA1_Rat, PCDHA1_Souris), PCDHA1_Bonobo));
+(((PCDHA1_Humain, PCDHA1_Rat), (PCDHA1_Souris, PCDHA1_Bonobo)), OR2J3_Humain);
+(((OR2J3_Humain, PCDHA1_Rat), (PCDHA1_Souris, PCDHA1_Bonobo)), PCDHA1_Humain);
+((((PCDHA1_Rat,PCDHA1_Souris),OR2J3_Humain),PCDHA1_Humain),PCDHA1_Bonobo);
+((((PCDHA1_Humain,PCDHA1_Souris),PCDHA1_Rat),OR2J3_Humain),PCDHA1_Bonobo);
+
