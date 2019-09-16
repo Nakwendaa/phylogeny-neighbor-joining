@@ -33,7 +33,7 @@ import java.util.*;
  *
  *@author Paul Chaffanet - CHAP23049307
  */
-public class tp4 {
+public class PhylogenyNeighborJoining {
 	
 /// Traitement des fichiers passés en arguments ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
@@ -880,7 +880,7 @@ public class tp4 {
 		
 		if (!areValidArgs(args)) {
 			System.out.println("Les arguments entrés ne sont pas au bon format.\n\n"
-					+ "Le premier argument passé en paramètre doit être le fichier \"arbres.newick\" (ou un fichier \"*.newick\")\n"
+					+ "Le premier argument passé en paramètre doit être le fichier \"arbres.nw\" (ou un fichier \"*.nw\")\n"
 					+ "Le deuxième argument passé en paramètre doit être le fichier \"proteines.fa\" (ou un fichier \"*.fa\")\n"
 					+ "Le troisième argument passé en paramètre doit être le fichier \"BLOSUM62.txt\" (ou un fichier \"*.txt\")\n");
 			System.exit(1);
